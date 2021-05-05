@@ -1,6 +1,21 @@
 
+
+* {
+    font-family: 'Exo 2', sans-serif;   
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Krona One', sans-serif;
+}
+
 h1 {
     font-size: 6rem;
+    color: whitesmoke;
+    margin-block: 0.2em;
 }
 
 h2 {
@@ -12,7 +27,8 @@ h3 {
 }
 
 h4{ 
-    font-size: 3rem;
+    font-size: 1.2rem;
+    margin-block: 0.5em;
 }
 
 h5 {
@@ -25,24 +41,45 @@ h6 {
 
 
 p {
+    /* font-family: 'Exo 2', sans-serif; */
     color: goldenrod;
     /* font-size: 21px; */
 }
 
 section {
     /* background-color: green; */
+    
 }
 
+footer {
+    height: 350px;
+    background-color: honeydew;
+}
 
 /* THIS IS A CLASS */
 .home-article {
-    border: 10px solid whitesmoke;
-    border-radius: 40px;
+    /* border: 10px solid whitesmoke; */
+    border-radius: 16px;
     background-color: whitesmoke;
+    width: 200px;
+    padding: 20px;
 }
 
+.img-article {
+    width: 100%;
+}
+
+.icon-feature {
+    font-size: 4em;
+    color: darkgreen;
+}
 
 /* THIS IS AN ID */
 #hero {
-    background-color: tomato;
+    /* background-color: tomato; */
+    background-image: url('../img/nathan-dumlao-zUNs99PGDg0-unsplash.jpg');
+    background-size: cover;
+    text-align: center;
+    /* height: 500px; */
+    height: 60vh;
 }
